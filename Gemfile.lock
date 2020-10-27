@@ -2,11 +2,15 @@ PATH
   remote: .
   specs:
     lyst (0.1.0)
+      icy (~> 0.3)
+      ivo (~> 0.5)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.4.4)
+    icy (0.3.0)
+    ivo (0.5.0)
     rake (12.3.3)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
