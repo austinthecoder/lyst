@@ -1,5 +1,6 @@
 require "securerandom"
 require 'forwardable'
+require "json"
 
 require "lyst/version"
 require "ivo"
@@ -15,19 +16,8 @@ module Lyst
     db.create_table(:events) do
       String :id
       Time :time
-    end
-
-    db.create_table(:add_item_events) do
-      String :id
-      String :event_id
-      String :item_id
-      String :item_name
-    end
-
-    db.create_table(:check_item_events) do
-      String :id
-      String :event_id
-      String :item_id
+      String :name
+      Sting :data
     end
 
     db.create_table(:items) do
