@@ -25,5 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "ivo", "~> 0.5"
   spec.add_dependency "icy", "~> 0.3"
   spec.add_dependency "sequel", "~> 5.37"
-  spec.add_dependency "sqlite3", "~> 1.4"
+  spec.add_dependency "pg", "~> 1.2"
 end
